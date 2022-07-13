@@ -1,5 +1,5 @@
 import java.util.Random;
-
+import java.util.Scanner;
 
 public class HeadsOrTails{
     public static String sideup;
@@ -35,7 +35,9 @@ public class HeadsOrTails{
 	    }
 	}
 	System.out.println("Heads: " + h+", Tails: " + t);
-
+	if(h>=2){
+	    System.out.println("You won!");
+	}else System.out.println("You lose!");
 
     }
 }
