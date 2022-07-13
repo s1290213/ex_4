@@ -1,5 +1,5 @@
 import java.util.Random;
-
+import java.util.Scanner;
 
 public class HeadsOrTails{
     public static String sideup;
@@ -22,7 +22,10 @@ public class HeadsOrTails{
     public static void main(String[] args){
 	int h = 0;
 	int t = 0;
-
+	System.out.print("Who are you?\n>");
+	Scanner sc = new Scanner(System.in);
+	String name = sc.nextLine();
+	System.out.println("Hello, "+name+"!");
 	System.out.println("Tossing a coin...");
     
 	for(int i = 1; i <= 3; i ++){
