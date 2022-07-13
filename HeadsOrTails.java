@@ -39,8 +39,8 @@ public class HeadsOrTails{
 	}
 	System.out.println("Heads: " + h+", Tails: " + t);
 	if(h>=2){
-	    System.out.println("You won!");
-	}else System.out.println("You lose!");
+	    System.out.println(name +" won!");
+	}else System.out.println(name +" lose!");
 
     }
 }
